@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.chervyakovsky.org/cards"
+        xmlns:tns="http://www.chervyakovsky.org/cards"
+        elementFormDefault="qualified">
+
+    <element name="old-cards">
+        <complexType>
+            <sequence>
+                <element ref="tns:old-card" minOccurs="1" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="old-card" type="tns:old-card-type" abstract="true"/>
+    <element name="digital-card" type="tns:digital-card-type" substitutionGroup="tns:old-card"/>
+    <element name="physical-card" type="tns:physical-card-type" substitutionGroup="tns:old-card"/>
+
+    <complexType name="old-card-type">
+        <sequence>
+            <element name="image-theme" type="tns:image-theme-type"/>
+            <element name="author" type="tns:author-type"/>
+            <element name="country" type="tns:country-type"/>
+            <element name="year" type="gYear"/>
+            <element name="type-valuable" type="tns:type-valuable-type" default="no-value"/>
+            <element name="was-sent" type="boolean"/>
+        </sequence>
+        <attribute name="id" type="tns:id-type" use="required"/>
+        <attribute name="type-card" type="tns:type-card-type" use="optional" default="usual"/>
+    </complexType>
+
+    <complexType name="digital-card-type">
+        <complexContent>
+            <extension base="tns:old-card-type">
+                <sequence>
+                    <element name="picture-format" type="tns:picture-format-type"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="physical-card-type">
+        <complexContent>
+            <extension base="tns:old-card-type">
+                <sequence>
+                    <element name="material" type="tns:material-type"/>
+                    <element name="size" type="tns:size-type"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="author-type">
+        <sequence>
+            <element name="first-name" type="string"/>
+            <element name="last-name" type="string"/>
+        </sequence>
+    </complexType>
+
+    <simpleType name="image-theme-type">
+        <restriction base="string">
+            <enumeration value="nature"/>
+            <enumeration value="people"/>
+            <enumeration value="sport"/>
+            <enumeration value="architecture"/>
+            <enumeration value="city"/>
+            <enumeration value="animal"/>
+            <enumeration value="car"/>
+            <enumeration value="another-theme"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="country-type">
+        <restriction base="string">
+            <enumeration value="usa"/>
+            <enumeration value="blr"/>
+            <enumeration value="aus"/>
+            <enumeration value="arg"/>
+            <enumeration value="bel"/>
+            <enumeration value="dnk"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="type-valuable-type">
+        <restriction base="string">
+            <enumeration value="historical"/>
+            <enumeration value="collectible"/>
+            <enumeration value="thematic"/>
+            <enumeration value="no-value"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="id-type">
+        <restriction base="ID">
+            <pattern value="\w{8}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="type-card-type">
+        <restriction base="string">
+            <enumeration value="advertising"/>
+            <enumeration value="congratulatory"/>
+            <enumeration value="artistic"/>
+            <enumeration value="usual"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="material-type">
+        <restriction base="string">
+            <enumeration value="paper"/>
+            <enumeration value="carton"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="picture-format-type">
+        <restriction base="string">
+            <enumeration value="jpeg"/>
+            <enumeration value="png"/>
+            <enumeration value="gif"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="size-type">
+        <restriction base="string">
+            <pattern value="\d{3}x\d{3}"/>
+        </restriction>
+    </simpleType>
+</schema>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<old-cards>
+    <digital-card id="a1234568" type-card="advertising">
+        <image-theme>people</image-theme>
+        <author>
+            <first-name>AAA</first-name>
+            <last-name>SSS</last-name>
+        </author>
+        <country>arg</country>
+        <year>2022</year>
+        <type-valuable>historical</type-valuable>
+        <was-sent>true</was-sent>
+        <picture-format>gif</picture-format>
+    </digital-card>
+
+    <digital-card id="a1234567">
+        <image-theme>another-theme</image-theme>
+        <author>
+            <first-name>AAA</first-name>
+            <last-name>SSS</last-name>
+        </author>
+        <country>arg</country>
+        <year>2022</year>
+        <type-valuable>historical</type-valuable>
+        <was-sent>true</was-sent>
+        <picture-format>gif</picture-format>
+    </digital-card>
+</old-cards>

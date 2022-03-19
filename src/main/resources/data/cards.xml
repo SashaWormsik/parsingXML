@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<old-cards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.chervyakovsky.org/cards"
+           xsi:schemaLocation = "http://www.chervyakovsky.org/cards cards.xsd">
+
+    <digital-card id="a0000002" type-card="congratulatory">
+        <image-theme>sport</image-theme>
+        <author>
+            <first-name>Jeff</first-name>
+            <last-name>Koons</last-name>
+        </author>
+        <country>dnk</country>
+        <year>1999</year>
+        <type-valuable>collectible</type-valuable>
+        <was-sent>true</was-sent>
+        <picture-format>png</picture-format>
+    </digital-card>
+
+    <digital-card type-card="artistic" id="a0000001">
+        <image-theme>people</image-theme>
+        <author>
+            <first-name>Jeff</first-name>
+            <last-name>Koons</last-name>
+        </author>
+        <country>dnk</country>
+        <year>1999</year>
+        <type-valuable>thematic</type-valuable>
+        <was-sent>true</was-sent>
+        <picture-format>jpeg</picture-format>
+    </digital-card>
+
+    <digital-card id="a0000003">
+        <image-theme>architecture</image-theme>
+        <author>
+            <first-name>David</first-name>
+            <last-name>Hockney</last-name>
+        </author>
+        <country>usa</country>
+        <year>2001</year>
+        <type-valuable>thematic</type-valuable>
+        <was-sent>false</was-sent>
+        <picture-format>png</picture-format>
+    </digital-card>
+
+    <digital-card id="a0000004">
+        <image-theme>nature</image-theme>
+        <author>
+            <first-name>David</first-name>
+            <last-name>Hockney</last-name>
+        </author>
+        <country>usa</country>
+        <year>2002</year>
+        <type-valuable>historical</type-valuable>
+        <was-sent>false</was-sent>
+        <picture-format>jpeg</picture-format>
+    </digital-card>
+
+    <digital-card id="a0000005">
+        <image-theme>nature</image-theme>
+        <author>
+            <first-name>Victor</first-name>
+            <last-name>Vasnetsov</last-name>
+        </author>
+        <country>blr</country>
+        <year>1999</year>
+        <type-valuable>historical</type-valuable>
+        <was-sent>true</was-sent>
+        <picture-format>png</picture-format>
+    </digital-card>
+
+    <digital-card id="a0000006">
+        <image-theme>nature</image-theme>
+        <author>
+            <first-name>Victor</first-name>
+            <last-name>Vasnetsov</last-name>
+        </author>
+        <country>blr</country>
+        <year>1999</year>
+        <type-valuable>historical</type-valuable>
+        <was-sent>true</was-sent>
+        <picture-format>png</picture-format>
+    </digital-card>
+
+    <digital-card id="a0000007">
+        <image-theme>city</image-theme>
+        <author>
+            <first-name>Claude</first-name>
+            <last-name>Monet</last-name>
+        </author>
+        <country>bel</country>
+        <year>1987</year>
+        <type-valuable>thematic</type-valuable>
+        <was-sent>false</was-sent>
+        <picture-format>jpeg</picture-format>
+    </digital-card>
+
+    <digital-card id="a0000008">
+        <image-theme>animal</image-theme>
+        <author>
+            <first-name>Claude</first-name>
+            <last-name>Monet</last-name>
+        </author>
+        <country>bel</country>
+        <year>1988</year>
+        <type-valuable>collectible</type-valuable>
+        <was-sent>false</was-sent>
+        <picture-format>png</picture-format>
+    </digital-card>
+
+    <physical-card id="a0000009">
+        <image-theme>car</image-theme>
+        <author>
+            <first-name>Edvard</first-name>
+            <last-name>Munch</last-name>
+        </author>
+        <country>arg</country>
+        <year>2004</year>
+        <type-valuable>no-value</type-valuable>
+        <was-sent>true</was-sent>
+        <material>carton</material>
+        <size>190x150</size>
+    </physical-card>
+
+    <physical-card id="a0000010">
+        <image-theme>another-theme</image-theme>
+        <author>
+            <first-name>Edvard</first-name>
+            <last-name>Munch</last-name>
+        </author>
+        <country>arg</country>
+        <year>2005</year>
+        <type-valuable>no-value</type-valuable>
+        <was-sent>true</was-sent>
+        <material>paper</material>
+        <size>190x190</size>
+    </physical-card>
+
+    <physical-card id="a0000011">
+        <image-theme>city</image-theme>
+        <author>
+            <first-name>Pablo</first-name>
+            <last-name>Picasso</last-name>
+        </author>
+        <country>aus</country>
+        <year>2001</year>
+        <type-valuable>historical</type-valuable>
+        <was-sent>true</was-sent>
+        <material>carton</material>
+        <size>190x565</size>
+    </physical-card>
+
+    <physical-card id="a0000012">
+        <image-theme>sport</image-theme>
+        <author>
+            <first-name>Pablo</first-name>
+            <last-name>Picasso</last-name>
+        </author>
+        <country>aus</country>
+        <year>2001</year>
+        <type-valuable>no-value</type-valuable>
+        <was-sent>true</was-sent>
+        <material>paper</material>
+        <size>200x200</size>
+    </physical-card>
+
+    <physical-card id="a0000013">
+        <image-theme>people</image-theme>
+        <author>
+            <first-name>Sandro</first-name>
+            <last-name>Botticelli</last-name>
+        </author>
+        <country>usa</country>
+        <year>2015</year>
+        <type-valuable>historical</type-valuable>
+        <was-sent>false</was-sent>
+        <material>carton</material>
+        <size>190x265</size>
+    </physical-card>
+
+    <physical-card id="a0000014">
+        <image-theme>another-theme</image-theme>
+        <author>
+            <first-name>Sandro</first-name>
+            <last-name>Botticelli</last-name>
+        </author>
+        <country>usa</country>
+        <year>2014</year>
+        <type-valuable>thematic</type-valuable>
+        <was-sent>false</was-sent>
+        <material>paper</material>
+        <size>190x265</size>
+    </physical-card>
+
+    <physical-card id="a0000015">
+        <image-theme>people</image-theme>
+        <author>
+            <first-name>Frida</first-name>
+            <last-name>Kahlo</last-name>
+        </author>
+        <country>dnk</country>
+        <year>2020</year>
+        <type-valuable>collectible</type-valuable>
+        <was-sent>false</was-sent>
+        <material>carton</material>
+        <size>190x165</size>
+    </physical-card>
+
+    <physical-card id="a0000016">
+        <image-theme>people</image-theme>
+        <author>
+            <first-name>Frida</first-name>
+            <last-name>Kahlo</last-name>
+        </author>
+        <country>dnk</country>
+        <year>2021</year>
+        <type-valuable>historical</type-valuable>
+        <was-sent>false</was-sent>
+        <material>paper</material>
+        <size>190x165</size>
+    </physical-card>
+</old-cards>
