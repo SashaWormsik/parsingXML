@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<old-cards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.chervyakovsky.org/cardsTest"
+           xsi:schemaLocation = "http://www.chervyakovsky.org/cardsTest cardsTest.xsd">
+
+    <digital-card id="a0000002" type-card="congratulatory">
+        <image-theme>sport</image-theme>
+        <author>
+            <first-name>Jeff
+            <last-name>Koons
+        </author>
+        <country>dnk</country>
+        <year>1999</year>
+        <type-valuable>collectible</type-valuable>
+        <was-sent>true</was-sent>
+        <picture-format>png</picture-format>
+    </digital-card>
+</old-cards>
