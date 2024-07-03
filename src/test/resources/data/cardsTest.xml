@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<old-cards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.chervyakovsky.org/cardsTest"
+           xsi:schemaLocation = "http://www.chervyakovsky.org/cardsTest cardsTest.xsd">
+
+    <digital-card id="a0000002" type-card="congratulatory">
+        <image-theme>sport</image-theme>
+        <author>
+            <first-name>Jeff</first-name>
+            <last-name>Koons</last-name>
+        </author>
+        <country>dnk</country>
+        <year>1999</year>
+        <type-valuable>collectible</type-valuable>
+        <was-sent>true</was-sent>
+        <picture-format>png</picture-format>
+    </digital-card>
+
+    <digital-card id="a0000007">
+        <image-theme>city</image-theme>
+        <author>
+            <first-name>Claude</first-name>
+            <last-name>Monet</last-name>
+        </author>
+        <country>bel</country>
+        <year>1987</year>
+        <type-valuable>thematic</type-valuable>
+        <was-sent>false</was-sent>
+        <picture-format>jpeg</picture-format>
+    </digital-card>
+
+    <physical-card id="a0000012">
+        <image-theme>sport</image-theme>
+        <author>
+            <first-name>Pablo</first-name>
+            <last-name>Picasso</last-name>
+        </author>
+        <country>aus</country>
+        <year>2001</year>
+        <type-valuable>no-value</type-valuable>
+        <was-sent>true</was-sent>
+        <material>paper</material>
+        <size>200x200</size>
+    </physical-card>
+
+    <physical-card id="a0000016">
+        <image-theme>people</image-theme>
+        <author>
+            <first-name>Frida</first-name>
+            <last-name>Kahlo</last-name>
+        </author>
+        <country>dnk</country>
+        <year>2021</year>
+        <type-valuable>historical</type-valuable>
+        <was-sent>false</was-sent>
+        <material>paper</material>
+        <size>190x165</size>
+    </physical-card>
+</old-cards>
